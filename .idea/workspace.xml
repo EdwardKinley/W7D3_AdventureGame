@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7c4950-e96d-4244-ae3c-07da27bf92de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/EnemyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/RaceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/RaceType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ClericTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RaceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RaceType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
               <folding>
                 <element signature="e#179#180#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
@@ -90,10 +83,37 @@
       <file leaf-file-name="EnemyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EnemyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Room.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="e#52#53#0" expanded="true" />
+                <element signature="e#86#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -436,7 +456,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGame.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPlayer.java" />
@@ -462,6 +481,8 @@
         <option value="$PROJECT_DIR$/src/test/java/EnemyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RaceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Room.java" />
       </list>
     </option>
   </component>
@@ -548,7 +569,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnemyTest.canAttack">
+  <component name="RunManager" selected="JUnit.RoomTest.hasPlayers">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -603,13 +624,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WarlockTest.hasExtraHP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.hasPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
-      <option name="METHOD_NAME" value="hasExtraHP" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="hasPlayers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -620,13 +641,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WizardTest.canCreatureReduceDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WarlockTest.hasExtraHP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WizardTest" />
-      <option name="METHOD_NAME" value="canCreatureReduceDamage" />
+      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
+      <option name="METHOD_NAME" value="hasExtraHP" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -676,19 +697,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WizardTest.canCreatureReduceDamage" />
       <item itemvalue="JUnit.WarlockTest.hasExtraHP" />
       <item itemvalue="JUnit.ClericTest.hasTool" />
       <item itemvalue="JUnit.ClericTest.canHeal" />
       <item itemvalue="JUnit.EnemyTest.canAttack" />
+      <item itemvalue="JUnit.RoomTest.hasPlayers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomTest.hasPlayers" />
         <item itemvalue="JUnit.EnemyTest.canAttack" />
         <item itemvalue="JUnit.ClericTest.canHeal" />
         <item itemvalue="JUnit.ClericTest.hasTool" />
         <item itemvalue="JUnit.WarlockTest.hasExtraHP" />
-        <item itemvalue="JUnit.WizardTest.canCreatureReduceDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -706,9 +727,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WizardTest_canCastSpell - 2018.07.04 at 13h 49m 14s.xml">
-      <configuration name="WizardTest.canCastSpell" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WizardTest_canCreatureReduceDamage - 2018.07.04 at 13h 52m 23s.xml">
       <configuration name="WizardTest.canCreatureReduceDamage" configurationId="JUnit" />
     </history-entry>
@@ -736,6 +754,9 @@
     <history-entry file="EnemyTest_canAttack - 2018.07.04 at 14h 28m 00s.xml">
       <configuration name="EnemyTest.canAttack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EnemyTest_canAttack - 2018.07.04 at 14h 28m 49s.xml">
+      <configuration name="EnemyTest.canAttack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -749,12 +770,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
       <window_info anchor="bottom" id="Build" weight="0.32969698" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -784,13 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1034,20 +1048,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EnemyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
@@ -1055,6 +1059,39 @@
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EnemyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#52#53#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
