@@ -9,7 +9,7 @@ public class Dwarf extends Player implements IFighter {
 
     }
 
-
+    @Override
     public WeaponType getWeapon() {
         return weapon;
     }

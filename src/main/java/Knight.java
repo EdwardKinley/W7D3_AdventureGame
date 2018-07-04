@@ -18,6 +18,11 @@ public class Knight extends Player implements IFighter {
     }
 
     @Override
+    public WeaponType getWeapon() {
+        return weapon;
+    }
+
+    @Override
     public void receiveDamage(int damage) {
         setHP(getHP()+20-damage);
     }
