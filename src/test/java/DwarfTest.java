@@ -23,6 +23,11 @@ public class DwarfTest{
         assertEquals(100, dwarf.getHP());
     }
 
+    @Test
+    public void canReceiveDamage(){
+        dwarf.receiveDamage(10);
+        assertEquals(90, dwarf.getHP());
+    }
 
 
 }

@@ -20,4 +20,8 @@ public abstract class Player {
     public int getHP(){
         return this.hp;
     }
+
+    public void receiveDamage(int damage) {
+        this.hp-=damage;
+    }
 }
