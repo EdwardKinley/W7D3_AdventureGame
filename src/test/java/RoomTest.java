@@ -27,8 +27,8 @@ public class RoomTest {
         players.add(knight);
         players.add(cleric);
 
-        room = new Room(1, enemy, players, 20);
-
+        room = new Room(1, enemy, 20);
+        room.addPlayers(players);
 
     }
 

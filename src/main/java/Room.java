@@ -9,14 +9,17 @@ public class Room {
     private Enemy enemy;
     private ArrayList<Player> players;
 
-    public Room(int number, Enemy enemy, ArrayList<Player> players, int treasures) {
+    public Room(int number, Enemy enemy, int treasures) {
         this.number = number;
         this.enemy = enemy;
-        this.players = players;
+        this.players = new ArrayList<>();
         this.treasures = treasures;
-
     }
 
+    public void addPlayers(ArrayList<Player> players){
+        this.players = players;
+
+    }
     public int getPlayerCount() {
         return players.size();
     }
