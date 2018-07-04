@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7c4950-e96d-4244-ae3c-07da27bf92de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -95,12 +94,14 @@
       <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="431">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#656#657#0" expanded="true" />
                 <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,11 +110,13 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="e#52#53#0" expanded="true" />
                 <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -569,7 +572,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoomTest.hasPlayers">
+  <component name="RunManager" selected="JUnit.RoomTest.canGetTreasure">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -624,13 +627,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RoomTest.hasPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.canGetTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RoomTest" />
-      <option name="METHOD_NAME" value="hasPlayers" />
+      <option name="METHOD_NAME" value="canGetTreasure" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -641,13 +644,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WarlockTest.hasExtraHP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.hasPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
-      <option name="METHOD_NAME" value="hasExtraHP" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="hasPlayers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -697,19 +700,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WarlockTest.hasExtraHP" />
       <item itemvalue="JUnit.ClericTest.hasTool" />
       <item itemvalue="JUnit.ClericTest.canHeal" />
       <item itemvalue="JUnit.EnemyTest.canAttack" />
       <item itemvalue="JUnit.RoomTest.hasPlayers" />
+      <item itemvalue="JUnit.RoomTest.canGetTreasure" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomTest.canGetTreasure" />
         <item itemvalue="JUnit.RoomTest.hasPlayers" />
         <item itemvalue="JUnit.EnemyTest.canAttack" />
         <item itemvalue="JUnit.ClericTest.canHeal" />
         <item itemvalue="JUnit.ClericTest.hasTool" />
-        <item itemvalue="JUnit.WarlockTest.hasExtraHP" />
       </list>
     </recent_temporary>
   </component>
@@ -727,9 +730,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WizardTest_canCreatureReduceDamage - 2018.07.04 at 13h 52m 23s.xml">
-      <configuration name="WizardTest.canCreatureReduceDamage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WarlockTest_hasExtraHP - 2018.07.04 at 13h 58m 51s.xml">
       <configuration name="WarlockTest.hasExtraHP" configurationId="JUnit" />
     </history-entry>
@@ -757,6 +757,9 @@
     <history-entry file="EnemyTest_canAttack - 2018.07.04 at 14h 28m 49s.xml">
       <configuration name="EnemyTest.canAttack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoomTest_hasPlayers - 2018.07.04 at 14h 39m 06s.xml">
+      <configuration name="RoomTest.hasPlayers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -772,10 +775,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
       <window_info anchor="bottom" id="Build" weight="0.32969698" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1075,23 +1078,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="431">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#656#657#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="e#52#53#0" expanded="true" />
             <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
           </folding>
         </state>
       </provider>

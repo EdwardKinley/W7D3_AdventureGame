@@ -37,4 +37,9 @@ public class RoomTest {
         assertEquals(3, room.getPlayerCount());
     }
 
+    @Test
+    public void canGetTreasure(){
+        assertEquals(20, room.getTreasure());
+    }
+
 }

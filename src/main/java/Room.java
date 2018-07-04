@@ -21,4 +21,8 @@ public class Room {
         return players.size();
     }
 
+
+    public int getTreasure() {
+        return treasures;
+    }
 }
