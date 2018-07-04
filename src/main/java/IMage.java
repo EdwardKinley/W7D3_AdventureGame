@@ -4,6 +4,7 @@ public interface IMage {
     void changeSpell(SpellType newSpell);
     void changeCreature (CreatureType newCreature);
     SpellType getSpell();
+    CreatureType getCreature();
 
 
 }

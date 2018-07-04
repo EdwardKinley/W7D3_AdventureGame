@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7c4950-e96d-4244-ae3c-07da27bf92de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CreatureType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IMage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpellType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IFighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IFighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IMage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IMage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,8 +26,8 @@
       <file leaf-file-name="WizardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="398">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +50,7 @@
       <file leaf-file-name="Dwarf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dwarf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="120">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
@@ -71,8 +65,8 @@
       <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
@@ -95,8 +89,8 @@
       <file leaf-file-name="Wizard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Wizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="389">
+              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
@@ -106,6 +100,9 @@
                 <element signature="e#565#566#0" expanded="true" />
                 <element signature="e#614#615#0" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/IMage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -459,11 +456,11 @@
         <option value="$PROJECT_DIR$/src/test/java/KnightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpellType.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreatureType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WizardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Knight.java" />
         <option value="$PROJECT_DIR$/src/main/java/IFighter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/main/java/IMage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WizardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wizard.java" />
       </list>
     </option>
@@ -551,60 +548,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WizardTest.canChangeSpell">
+  <component name="RunManager" selected="JUnit.WizardTest.canCreatureReduceDamage">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BarbarianTest.canDealDoubleDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GregCanEdward_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
-      <option name="METHOD_NAME" value="canDealDoubleDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DwarfTest.canChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GregCanEdward_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="METHOD_NAME" value="canChangeWeapon" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="KnightTest.canReceiveReduceDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GregCanEdward_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canReceiveReduceDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
@@ -623,6 +569,40 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WizardTest.canCastSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GregCanEdward_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canCastSpell" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.canChangeCreature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GregCanEdward_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canChangeCreature" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="WizardTest.canChangeSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -630,6 +610,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WizardTest" />
       <option name="METHOD_NAME" value="canChangeSpell" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.canCreatureReduceDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GregCanEdward_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canCreatureReduceDamage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -679,19 +676,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DwarfTest.canChangeWeapon" />
-      <item itemvalue="JUnit.BarbarianTest.canDealDoubleDamage" />
-      <item itemvalue="JUnit.KnightTest.canReceiveReduceDamage" />
       <item itemvalue="JUnit.WizardTest" />
       <item itemvalue="JUnit.WizardTest.canChangeSpell" />
+      <item itemvalue="JUnit.WizardTest.canChangeCreature" />
+      <item itemvalue="JUnit.WizardTest.canCastSpell" />
+      <item itemvalue="JUnit.WizardTest.canCreatureReduceDamage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WizardTest.canCreatureReduceDamage" />
+        <item itemvalue="JUnit.WizardTest.canCastSpell" />
+        <item itemvalue="JUnit.WizardTest.canChangeCreature" />
         <item itemvalue="JUnit.WizardTest.canChangeSpell" />
         <item itemvalue="JUnit.WizardTest" />
-        <item itemvalue="JUnit.KnightTest.canReceiveReduceDamage" />
-        <item itemvalue="JUnit.BarbarianTest.canDealDoubleDamage" />
-        <item itemvalue="JUnit.DwarfTest.canChangeWeapon" />
       </list>
     </recent_temporary>
   </component>
@@ -709,15 +706,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DwarfTest - 2018.07.04 at 12h 07m 16s.xml">
-      <configuration name="DwarfTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_canReceiveDamage - 2018.07.04 at 12h 10m 06s.xml">
-      <configuration name="DwarfTest.canReceiveDamage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_hasAWeapon - 2018.07.04 at 12h 11m 52s.xml">
-      <configuration name="DwarfTest.hasAWeapon" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DwarfTest_hasHP - 2018.07.04 at 12h 13m 38s.xml">
       <configuration name="DwarfTest.hasHP" configurationId="JUnit" />
     </history-entry>
@@ -735,6 +723,18 @@
     </history-entry>
     <history-entry file="WizardTest - 2018.07.04 at 13h 40m 22s.xml">
       <configuration name="WizardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_canChangeSpell - 2018.07.04 at 13h 45m 30s.xml">
+      <configuration name="WizardTest.canChangeSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_canChangeCreature - 2018.07.04 at 13h 48m 17s.xml">
+      <configuration name="WizardTest.canChangeCreature" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_canCastSpell - 2018.07.04 at 13h 49m 09s.xml">
+      <configuration name="WizardTest.canCastSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_canCastSpell - 2018.07.04 at 13h 49m 14s.xml">
+      <configuration name="WizardTest.canCastSpell" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -776,7 +776,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -856,19 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreatureType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WeaponType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -909,43 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IFighter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,9 +910,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IMage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dwarf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
@@ -969,17 +940,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IMage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreatureType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="389">
+          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="e#188#189#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
@@ -989,6 +989,9 @@
             <element signature="e#565#566#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
           </folding>
         </state>
       </provider>

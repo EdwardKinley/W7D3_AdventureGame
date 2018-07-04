@@ -11,7 +11,7 @@ public class Wizard extends Player implements IMage{
 
     @Override
     public void castSpell(Enemy enemy) {
-        enemy.receiveDamage(spell.getDamage());
+        enemy.receiveDamage(spell.getDamage()*2);
     }
 
     @Override
@@ -27,4 +27,14 @@ public class Wizard extends Player implements IMage{
     public SpellType getSpell() {
         return spell;
     }
+
+    @Override
+    public CreatureType getCreature() {
+        return creature;
+    }
+    @Override
+    public void receiveDamage(int damage){
+        setHP(getHP()+creature.getProtection()-damage);
+    }
+
 }
