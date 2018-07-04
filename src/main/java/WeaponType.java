@@ -1,5 +1,5 @@
 public enum WeaponType {
-    AXE(50),
+    AXE(30),
     SWORD(20),
     CLUB(10);
     public final int damage;
