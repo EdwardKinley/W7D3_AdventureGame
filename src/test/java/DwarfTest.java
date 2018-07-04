@@ -43,4 +43,10 @@ public class DwarfTest{
         assertEquals(20, enemy.getHP());
     }
 
+    @Test
+    public void canChangeWeapon(){
+        dwarf.changeWeapon(WeaponType.CLUB);
+        assertEquals(WeaponType.CLUB, dwarf.getWeapon());
+    }
+
 }

@@ -21,7 +21,7 @@ public class Dwarf extends Player implements IFighter {
 
     @Override
     public void changeWeapon(WeaponType newWeapon) {
-
+        weapon = newWeapon;
     }
 }
 
