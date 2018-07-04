@@ -15,9 +15,10 @@ public class TestGame {
     public void setup()
     {   players = new ArrayList<>();
         rooms= new ArrayList<>();
-
         game = new Game (players, rooms);
     }
+
+
 
 
 }
