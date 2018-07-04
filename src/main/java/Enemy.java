@@ -2,10 +2,11 @@ public class Enemy {
 
     private int hp;
 
-    RaceType race;
+    private RaceType race;
 
     public Enemy(RaceType race) {
         this.hp = race.getHP();
+        this.race = race;
     }
 
 
@@ -15,5 +16,10 @@ public class Enemy {
 
     public int getHP() {
         return hp;
+    }
+
+
+    public void attack(Player player) {
+        player.receiveDamage(race.getDamage());
     }
 }

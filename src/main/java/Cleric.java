@@ -12,4 +12,8 @@ public class Cleric extends Player {
     public ToolType getTool() {
         return tool;
     }
+
+    public void heal(Player player) {
+        player.setHP(player.getHP()+tool.getHealingPower());
+    }
 }

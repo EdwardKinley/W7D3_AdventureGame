@@ -19,6 +19,10 @@ public class ClericTest {
         assertEquals(ToolType.POTION, cleric.getTool());
     }
 
-
+    @Test
+    public void canHeal(){
+        cleric.heal(dwarf);
+        assertEquals(130, dwarf.getHP());
+    }
 
 }
