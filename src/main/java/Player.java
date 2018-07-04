@@ -21,6 +21,10 @@ public abstract class Player {
         return this.hp;
     }
 
+    public void setHP(int newHP){
+        this.hp = newHP;
+    }
+
     public void receiveDamage(int damage) {
         this.hp-=damage;
     }

@@ -1,4 +1,4 @@
-import com.sun.tools.internal.ws.resources.GeneratorMessages;
+
 import org.junit.Before;
 import org.junit.Test;
 
