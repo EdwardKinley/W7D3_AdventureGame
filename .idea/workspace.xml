@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7c4950-e96d-4244-ae3c-07da27bf92de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Warlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cleric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ToolType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,15 +35,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WarlockTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WarlockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClericTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cleric.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cleric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ToolType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,21 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dwarf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Dwarf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,24 +158,6 @@
                 <element signature="e#455#456#0" expanded="true" />
                 <element signature="e#495#496#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeaponType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WeaponType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IMage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -175,8 +183,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -501,6 +509,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Wizard.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warlock.java" />
         <option value="$PROJECT_DIR$/src/test/java/WarlockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tooltype.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClericTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cleric.java" />
       </list>
     </option>
   </component>
@@ -587,9 +598,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WarlockTest.hasExtraHP">
+  <component name="RunManager" selected="JUnit.ClericTest.hasTool">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ClericTest.hasTool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GregCanEdward_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClericTest" />
+      <option name="METHOD_NAME" value="hasTool" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="WarlockTest.hasExtraHP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GregCanEdward_test" />
@@ -632,23 +660,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WizardTest" />
       <option name="METHOD_NAME" value="canChangeCreature" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WizardTest.canChangeSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GregCanEdward_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WizardTest" />
-      <option name="METHOD_NAME" value="canChangeSpell" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -715,19 +726,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WizardTest.canChangeSpell" />
       <item itemvalue="JUnit.WizardTest.canChangeCreature" />
       <item itemvalue="JUnit.WizardTest.canCastSpell" />
       <item itemvalue="JUnit.WizardTest.canCreatureReduceDamage" />
       <item itemvalue="JUnit.WarlockTest.hasExtraHP" />
+      <item itemvalue="JUnit.ClericTest.hasTool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClericTest.hasTool" />
         <item itemvalue="JUnit.WarlockTest.hasExtraHP" />
         <item itemvalue="JUnit.WizardTest.canCreatureReduceDamage" />
         <item itemvalue="JUnit.WizardTest.canCastSpell" />
         <item itemvalue="JUnit.WizardTest.canChangeCreature" />
-        <item itemvalue="JUnit.WizardTest.canChangeSpell" />
       </list>
     </recent_temporary>
   </component>
@@ -745,9 +756,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DwarfTest_canAttack - 2018.07.04 at 12h 34m 36s.xml">
-      <configuration name="DwarfTest.canAttack" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DwarfTest_canChangeWeapon - 2018.07.04 at 13h 06m 40s.xml">
       <configuration name="DwarfTest.canChangeWeapon" configurationId="JUnit" />
     </history-entry>
@@ -774,6 +782,9 @@
     </history-entry>
     <history-entry file="WizardTest_canCreatureReduceDamage - 2018.07.04 at 13h 52m 23s.xml">
       <configuration name="WizardTest.canCreatureReduceDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarlockTest_hasExtraHP - 2018.07.04 at 13h 58m 51s.xml">
+      <configuration name="WarlockTest.hasExtraHP" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1059,12 +1070,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ToolType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cleric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
